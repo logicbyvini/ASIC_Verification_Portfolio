@@ -1,0 +1,42 @@
+# ==========================================
+# EDA Tools & Simulation Ignored Files
+# ==========================================
+
+# Synopsys VCS & Verdi
+simv
+simv.daidir/
+csrc/
+*.vdb
+*.fsdb
+novas.*
+verdiLog/
+*.key
+
+# Cadence Xcelium & SimVision
+xcelium.d/
+INCA_libs/
+waves.shm/
+*.dsn
+*.trn
+*.ucm
+.simvision/
+
+# Log Files & Coverage
+*.log
+*.err
+cov_work/
+*.vcd
+*.vpd
+
+# Synthesis & Implementation (Genus/Innovus)
+*.sdc
+*.vg
+*.mapped.v
+*.sdf
+*.spef
+timing_reports/
+power_reports/
+
+# OS Generated
+.DS_Store
+Thumbs.db
