@@ -42,5 +42,26 @@ Verification environment for a 1D-CNN Hardware Accelerator targeting Ventricular
   * *Cadence:* Xcelium, SimVision, vManager.
   * *Synopsys:* VCS, Verdi, SpyGlass CDC.
 
+📁 ASIC_Verification_Portfolio/
+│
+├── 📁 01_High_Speed_Interconnect_Concepts/  # Seu foco para essa semana (HCLTech)
+│   ├── 📁 async_fifo_cdc/                   # O projeto da FIFO Assíncrona
+│   └── 📁 serdes_fundamentals/              # Lógica de serialização
+│
+├── 📁 02_CNN_Accelerator_DV_Env/            # O seu TCC (Sem o RTL)
+│   ├── 📁 docs/                             # Test Plan e Root Cause Analysis
+│   ├── 📁 reference_model/                  # C++ / Python model
+│   └── 📁 uvm_tb/                           # Agentes, Sequencers, Scoreboard
+│
+├── 📁 03_AMBA_Protocols/                    # Para reaproveitar o que você fez no CI-Digital
+│   └── 📁 axi4_lite_vip/
+│
+├── 📁 scripts_and_automation/               # Recrutadores de DV amam quem sabe automatizar
+│   ├── makefile_templates/
+│   └── tcl_eda_setup/
+│
+├── .gitignore
+└── README.md
+
 ---
 *Dedicated to building robust, coverage-driven, and scalable hardware.*
