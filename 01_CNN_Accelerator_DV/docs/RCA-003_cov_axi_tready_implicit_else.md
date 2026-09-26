@@ -9,7 +9,7 @@ Abaixo está o conteúdo formatado em bloco único pronto para você copiar e co
 | **Ambiente de Teste** | UVM Testbench (`uvm_tb/`) |
 | **Ferramenta de Diagnóstico** | Cadence IMC (Integrated Metrics Center) / Xcelium |
 | **Métrica Afetada** | Code Coverage: Block Coverage / Branch Coverage |
-| **Severidade** | Alta (Risco de congelamento ou perda de dados em silício) |
+| **Severidade** | Alta (Risco de congelamento ou perda de dados) |
 | **Status** | Causa-Raiz Identificada / Em Correção |
 
 ---
