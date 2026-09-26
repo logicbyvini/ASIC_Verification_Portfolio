@@ -39,7 +39,7 @@ Aprofundando a inspeção no RTL (`cnn_top.sv`) e no módulo do classificador (`
 Para reestabelecer a integridade do fluxo de dados e recuperar a cobertura das instâncias da CNN, determinou-se a criação de um bloco intermediário entre a Convolução 3 e a Fully Connected:
 
 * **Conversor Paralelo-Serial (Unpacker):**
-  - Trava (*latch*) o vetor de 304 bits vindo da Camada 3 quando `c3_avg_v` estiver alto.
+  - Trava o vetor de 304 bits vindo da Camada 3 quando `c3_avg_v` estiver alto.
   - Distribui em fatias de 16 bits para a `fully_connected_layer`, um canal por ciclo ao longo de 19 ciclos de clock.
 * **Avaliação de Buffer / FIFO AXI-Stream:**
   - Estuda-se o acréscimo de uma pequena FIFO/Buffer assimétrico (Write: 304 bits, Read: 16 bits) para desacoplar a taxa de transferência (*throughput*) e absorver o *backpressure* (`tready`), evitando travamentos no pipeline da CNN.
