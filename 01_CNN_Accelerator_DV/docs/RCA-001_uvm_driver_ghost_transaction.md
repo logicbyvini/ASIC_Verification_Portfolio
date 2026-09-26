@@ -39,6 +39,6 @@ virtual task run_phase(uvm_phase phase);
         seq_item_port.item_done();
     end
 endtask
-
+```
 ## 4. Resultado da Validação
 Após a correção, o Monitor registrou perfeitamente as 19 transações. O DUT realizou o cálculo das 3 classes e o Preditor Matemático (Golden Model local do Scoreboard) confirmou o Match bit-a-bit com sucesso absoluto.
