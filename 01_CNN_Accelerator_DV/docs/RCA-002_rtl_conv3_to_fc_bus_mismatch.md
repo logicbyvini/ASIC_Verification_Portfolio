@@ -1,6 +1,6 @@
 # Relatório de Verificação e Arquitetura: Gargalo de Cobertura e Serialização da Camada FC
 
-**Data:** $(data_de_hoje)  
+**Data:** 14/09/2026  
 **Módulos Impactados:** `cnn_top.sv`, `gen_bn_pool3`, `fully_connected_layer.sv`  
 **Ferramentas Utilizadas:** Cadence IMC (Integrated Metrics Center), SimVision / Xcelium  
 
